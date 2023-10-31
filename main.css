@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px 0;
+    background-color: rgba(4, 198, 62, 0.692);
+    color: #412121;
+    margin-bottom: 16px;
+    max-width: 1880px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+}
+
+header nav li a {
+    color: #7008ca;
+    text-decoration: none;
+    margin-right: 8px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dog-up {
+    max-height: 400px;
+    margin-bottom: 8px;
+    margin-right: 16px;
+}
+
+#about .container{
+    background-color: #f0f1f5;
+    display: flex;
+}
+
+.container h2{
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+}
+
+.stuff {
+    display: inline-flex;
+}
+
+#about h2{
+    font-size: 50px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+#about h3{
+    font-size: 25px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+#about p{
+    text-align:center;
+    margin-bottom: 50px;
+}
+
+#shopp h2, 
+img{
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.stuff li {
+    display:inline-block;
+    margin-right: 40px;
+}
+
+.stuff img {
+    max-width: 100%;
+}
+
+#pets .container {
+    display: inline-block;
+    justify-content: center;
+}
+
+#pets li {
+    display: inline-block;
+    margin-right: 200px;
+    margin-bottom: 100px;
+    padding: 0 auto;
+}
+
+#pets h2 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+#pets .container {
+    background-color: #e4fffc;
+}
+
+
+.social-links img {
+    height: 50px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+display: block;
+width: 320px;
+margin-bottom: 8px;
+padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button:hover {
+    background-color:rgba(4, 198, 62, 0.692) ;
+}
+
+input:focus, textarea:focus {
+    outline-color: rgba(4, 198, 62, 0.692);
+}
+
+#adress h3 {
+    font-size: 50px;
+}
+
+#contact .container {
+    background-color: #f0f1f5;
+}
+
+footer {
+    background-color: rgba(4, 198, 62, 0.692);
+    color:black;
+    padding: 16px 0;
+}
